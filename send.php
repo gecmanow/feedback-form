@@ -41,8 +41,8 @@ if(empty($errors)) {
         ."\nСогласие на обработку персональных данных: " . $_POST['check'];
     $userAgent = "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36";
 
-    $chat_id = '-1001358565564';
-    $token='1777408745:AAGFEjbm8KRUC8acJn8Y4x5quB7Kll9eui0';
+    $chat_id = '';
+    $token='';
     $url = "https://api.telegram.org/bot".$token."/sendMessage";
     $params = array(
         'chat_id' => $chat_id,
