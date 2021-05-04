@@ -1,0 +1,65 @@
+body {
+    height: 100vh;
+    background-color: #888888;
+}
+.offer_form {
+    padding: 2rem 0;
+}
+.form-text {
+    color: #000000;
+}
+.custom-control-label {
+    color: #000000;
+}
+.offer_form-btn button {
+    width: 100%;
+}
+.offer_form-input input {
+    border: 2px solid #000000;
+    border-radius: 0;
+}
+.offer_form-btn button {
+    color: #000000;
+    background-color: #ffe600;
+    border: 0;
+    border-radius: 0;
+    font-weight: bold;
+}
+.offer_form-btn button:hover {
+    opacity: 0.8;
+    color: #000000;
+    background-color: #ffe600;
+}
+.offer_form-btn button:focus {
+    background-color: #ffe600;
+    color: #000000;
+}
+.offer_form-btn button:active {
+    background-color: #ffc900!important;
+    color: #000000!important;
+}
+.offer_form-btn button:focus-visible {
+    background-color: #ffc900;
+    color: #000000;
+}
+.label_desc {
+    display: block;
+}
+.error {
+    display: none;
+    font-size: 0.8rem;
+}
+.error_input {
+    border: 2px solid #ad0000!important;
+}
+@media screen and (max-width: 575px) {
+    .offer_form-input {
+        margin-bottom: 1rem;
+    }
+    .offer_form-btn {
+        margin-bottom: 1rem;
+    }
+    .offer_form {
+        margin: 1rem 0;
+    }
+}
